@@ -1,0 +1,32 @@
+.Quiz p {
+  color: white;
+  padding: 10px;
+  font-size: 1.25em;
+}
+.Quiz .answers-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Quiz .answers-container button {
+  width: 155px;
+  height: 75px;
+  margin: 15px;
+  color: black;
+  font-size: 100%;
+}
+.Quiz .correct {
+  background-color: green;
+}
+.Quiz .wrong {
+  background-color: red;
+}
+#score {
+  color: white;
+  font-size: 2.5em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: black;
+}
